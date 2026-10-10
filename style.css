@@ -1,15 +1,15 @@
 
 :root{
-  --bg:#fdfbfc;
-  --ink:#2a2f45;
-  --ink-soft:#5d6278;
-  --pink:#d0558f;
-  --blue:#5b84c4;
-  --steel:#3f78ad;
-  --line:#ead9e3;
+  --bg:#f8fbfc;
+  --ink:#16343c;
+  --ink-soft:#526c74;
+  --pink:#b9650b;
+  --blue:#44778c;
+  --steel:#326878;
+  --line:#dbe5e5;
   --card:#ffffffd9;
-  --glow-pink:#f6c6dc;
-  --glow-blue:#c9d8f5;
+  --glow-pink:#f4e6c7;
+  --glow-blue:#c9e1ef;
   --serif:"Shippori Mincho","Yu Mincho","Hiragino Mincho ProN",serif;
   --sans:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
   color-scheme:light;
@@ -103,3 +103,6 @@ main{max-width:540px;padding-top:28px}
 .choice{min-height:68px}
 .qtext:focus,h1:focus,h2:focus{outline:none}
 @media(min-width:760px){main{padding-top:44px}.screen{padding-top:46px}.g1{width:540px;height:540px;right:5%;top:-240px}.g2{left:4%;bottom:-200px;width:480px;height:480px}}
+
+/* Sky, deep teal and warm gold palette */
+.g1{background:#d4e8f5;opacity:.8}.g2{background:#e4ebd8;opacity:.65}.grad{background:linear-gradient(110deg,#173e48 15%,#326c7e 70%,#b87a20);background-clip:text;-webkit-background-clip:text;color:transparent}.btn.primary{background:linear-gradient(105deg,#ae5b09,#916115);box-shadow:0 10px 24px -12px #a96c22}.bar span,.rule{background:linear-gradient(90deg,#e5a02d,#6e9cb0)}
